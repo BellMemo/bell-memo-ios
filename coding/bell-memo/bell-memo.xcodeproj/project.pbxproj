@@ -34,6 +34,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AA16239328FD2356001DED6B /* StructureSwfitUI.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = StructureSwfitUI.md; sourceTree = "<group>"; };
+		AA16239428FD5922001DED6B /* Scene.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Scene.md; sourceTree = "<group>"; };
 		AA78790928F928DB002F2C24 /* bell-memo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bell-memo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA78790C28F928DB002F2C24 /* bell_memoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bell_memoApp.swift; sourceTree = "<group>"; };
 		AA78790E28F928DB002F2C24 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,6 +73,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AA16239028FD22C2001DED6B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		AA16239128FD22DA001DED6B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AA16239228FD22F2001DED6B /* Doc */ = {
+			isa = PBXGroup;
+			children = (
+				AA16239328FD2356001DED6B /* StructureSwfitUI.md */,
+				AA16239428FD5922001DED6B /* Scene.md */,
+			);
+			path = Doc;
+			sourceTree = "<group>";
+		};
 		AA78790028F928DB002F2C24 = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +119,9 @@
 		AA78790B28F928DB002F2C24 /* bell-memo */ = {
 			isa = PBXGroup;
 			children = (
+				AA16239228FD22F2001DED6B /* Doc */,
+				AA16239128FD22DA001DED6B /* Model */,
+				AA16239028FD22C2001DED6B /* Home */,
 				AA78790C28F928DB002F2C24 /* bell_memoApp.swift */,
 				AA78790E28F928DB002F2C24 /* ContentView.swift */,
 				AA78791028F928DD002F2C24 /* Assets.xcassets */,
