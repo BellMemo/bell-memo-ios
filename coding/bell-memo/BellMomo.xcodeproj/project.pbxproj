@@ -46,14 +46,14 @@
 		AA16239C28FF995C001DED6B /* MessageCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCardView.swift; sourceTree = "<group>"; };
 		AA3EAA4F2914B17B00E3B820 /* RowItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowItemView.swift; sourceTree = "<group>"; };
 		AA3EAA522914B4C200E3B820 /* ExtentsionUIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtentsionUIColor.swift; sourceTree = "<group>"; };
-		AA78790928F928DB002F2C24 /* bell-memo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bell-memo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA78790928F928DB002F2C24 /* BellMomo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BellMomo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA78790C28F928DB002F2C24 /* bell_memoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bell_memoApp.swift; sourceTree = "<group>"; };
 		AA78790E28F928DB002F2C24 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AA78791028F928DD002F2C24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA78791328F928DD002F2C24 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		AA78791928F928DD002F2C24 /* bell-memoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "bell-memoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA78791928F928DD002F2C24 /* BellMomoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BellMomoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA78791D28F928DD002F2C24 /* bell_memoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bell_memoTests.swift; sourceTree = "<group>"; };
-		AA78792328F928DD002F2C24 /* bell-memoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "bell-memoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA78792328F928DD002F2C24 /* BellMomoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BellMomoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA78792728F928DD002F2C24 /* bell_memoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bell_memoUITests.swift; sourceTree = "<group>"; };
 		AA78792928F928DD002F2C24 /* bell_memoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bell_memoUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -124,9 +124,9 @@
 		AA78790A28F928DB002F2C24 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AA78790928F928DB002F2C24 /* bell-memo.app */,
-				AA78791928F928DD002F2C24 /* bell-memoTests.xctest */,
-				AA78792328F928DD002F2C24 /* bell-memoUITests.xctest */,
+				AA78790928F928DB002F2C24 /* BellMomo.app */,
+				AA78791928F928DD002F2C24 /* BellMomoTests.xctest */,
+				AA78792328F928DD002F2C24 /* BellMomoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -173,9 +173,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AA78790828F928DB002F2C24 /* bell-memo */ = {
+		AA78790828F928DB002F2C24 /* BellMemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AA78792D28F928DD002F2C24 /* Build configuration list for PBXNativeTarget "bell-memo" */;
+			buildConfigurationList = AA78792D28F928DD002F2C24 /* Build configuration list for PBXNativeTarget "BellMemo" */;
 			buildPhases = (
 				AA78790528F928DB002F2C24 /* Sources */,
 				AA78790628F928DB002F2C24 /* Frameworks */,
@@ -185,14 +185,14 @@
 			);
 			dependencies = (
 			);
-			name = "bell-memo";
+			name = BellMemo;
 			productName = "bell-memo";
-			productReference = AA78790928F928DB002F2C24 /* bell-memo.app */;
+			productReference = AA78790928F928DB002F2C24 /* BellMomo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		AA78791828F928DD002F2C24 /* bell-memoTests */ = {
+		AA78791828F928DD002F2C24 /* BellMomoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AA78793028F928DD002F2C24 /* Build configuration list for PBXNativeTarget "bell-memoTests" */;
+			buildConfigurationList = AA78793028F928DD002F2C24 /* Build configuration list for PBXNativeTarget "BellMomoTests" */;
 			buildPhases = (
 				AA78791528F928DD002F2C24 /* Sources */,
 				AA78791628F928DD002F2C24 /* Frameworks */,
@@ -203,14 +203,14 @@
 			dependencies = (
 				AA78791B28F928DD002F2C24 /* PBXTargetDependency */,
 			);
-			name = "bell-memoTests";
+			name = BellMomoTests;
 			productName = "bell-memoTests";
-			productReference = AA78791928F928DD002F2C24 /* bell-memoTests.xctest */;
+			productReference = AA78791928F928DD002F2C24 /* BellMomoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		AA78792228F928DD002F2C24 /* bell-memoUITests */ = {
+		AA78792228F928DD002F2C24 /* BellMomoUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AA78793328F928DD002F2C24 /* Build configuration list for PBXNativeTarget "bell-memoUITests" */;
+			buildConfigurationList = AA78793328F928DD002F2C24 /* Build configuration list for PBXNativeTarget "BellMomoUITests" */;
 			buildPhases = (
 				AA78791F28F928DD002F2C24 /* Sources */,
 				AA78792028F928DD002F2C24 /* Frameworks */,
@@ -221,9 +221,9 @@
 			dependencies = (
 				AA78792528F928DD002F2C24 /* PBXTargetDependency */,
 			);
-			name = "bell-memoUITests";
+			name = BellMomoUITests;
 			productName = "bell-memoUITests";
-			productReference = AA78792328F928DD002F2C24 /* bell-memoUITests.xctest */;
+			productReference = AA78792328F928DD002F2C24 /* BellMomoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -249,7 +249,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AA78790428F928DB002F2C24 /* Build configuration list for PBXProject "bell-memo" */;
+			buildConfigurationList = AA78790428F928DB002F2C24 /* Build configuration list for PBXProject "BellMomo" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -262,9 +262,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AA78790828F928DB002F2C24 /* bell-memo */,
-				AA78791828F928DD002F2C24 /* bell-memoTests */,
-				AA78792228F928DD002F2C24 /* bell-memoUITests */,
+				AA78790828F928DB002F2C24 /* BellMemo */,
+				AA78791828F928DD002F2C24 /* BellMomoTests */,
+				AA78792228F928DD002F2C24 /* BellMomoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -332,12 +332,12 @@
 /* Begin PBXTargetDependency section */
 		AA78791B28F928DD002F2C24 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AA78790828F928DB002F2C24 /* bell-memo */;
+			target = AA78790828F928DB002F2C24 /* BellMemo */;
 			targetProxy = AA78791A28F928DD002F2C24 /* PBXContainerItemProxy */;
 		};
 		AA78792528F928DD002F2C24 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AA78790828F928DB002F2C24 /* bell-memo */;
+			target = AA78790828F928DB002F2C24 /* BellMemo */;
 			targetProxy = AA78792428F928DD002F2C24 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -481,7 +481,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "example.bell-memo";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = BellMomo;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -510,7 +510,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "example.bell-memo";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = BellMomo;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -533,7 +533,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bell-memo.app/bell-memo";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BellMomo.app/BellMomo";
 			};
 			name = Debug;
 		};
@@ -553,7 +553,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bell-memo.app/bell-memo";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BellMomo.app/BellMomo";
 			};
 			name = Release;
 		};
@@ -568,10 +568,11 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "example.bell-memoUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "bell-memo";
+				TEST_TARGET_NAME = BellMemo;
 			};
 			name = Debug;
 		};
@@ -586,17 +587,18 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "example.bell-memoUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "bell-memo";
+				TEST_TARGET_NAME = BellMemo;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AA78790428F928DB002F2C24 /* Build configuration list for PBXProject "bell-memo" */ = {
+		AA78790428F928DB002F2C24 /* Build configuration list for PBXProject "BellMomo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AA78792B28F928DD002F2C24 /* Debug */,
@@ -605,7 +607,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AA78792D28F928DD002F2C24 /* Build configuration list for PBXNativeTarget "bell-memo" */ = {
+		AA78792D28F928DD002F2C24 /* Build configuration list for PBXNativeTarget "BellMemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AA78792E28F928DD002F2C24 /* Debug */,
@@ -614,7 +616,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AA78793028F928DD002F2C24 /* Build configuration list for PBXNativeTarget "bell-memoTests" */ = {
+		AA78793028F928DD002F2C24 /* Build configuration list for PBXNativeTarget "BellMomoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AA78793128F928DD002F2C24 /* Debug */,
@@ -623,7 +625,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AA78793328F928DD002F2C24 /* Build configuration list for PBXNativeTarget "bell-memoUITests" */ = {
+		AA78793328F928DD002F2C24 /* Build configuration list for PBXNativeTarget "BellMomoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AA78793428F928DD002F2C24 /* Debug */,
