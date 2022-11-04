@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		AA16239928FE8936001DED6B /* SearchManagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA16239828FE8936001DED6B /* SearchManagerView.swift */; };
 		AA16239B28FEA927001DED6B /* ActiveListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA16239A28FEA927001DED6B /* ActiveListView.swift */; };
+		AA16239D28FF995C001DED6B /* MessageCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA16239C28FF995C001DED6B /* MessageCardView.swift */; };
+		AA3EAA502914B17B00E3B820 /* RowItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3EAA4F2914B17B00E3B820 /* RowItemView.swift */; };
+		AA3EAA532914B4C200E3B820 /* ExtentsionUIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3EAA522914B4C200E3B820 /* ExtentsionUIColor.swift */; };
 		AA78790D28F928DB002F2C24 /* bell_memoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA78790C28F928DB002F2C24 /* bell_memoApp.swift */; };
 		AA78790F28F928DB002F2C24 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA78790E28F928DB002F2C24 /* ContentView.swift */; };
 		AA78791128F928DD002F2C24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA78791028F928DD002F2C24 /* Assets.xcassets */; };
@@ -40,6 +43,9 @@
 		AA16239428FD5922001DED6B /* Scene.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Scene.md; sourceTree = "<group>"; };
 		AA16239828FE8936001DED6B /* SearchManagerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchManagerView.swift; sourceTree = "<group>"; };
 		AA16239A28FEA927001DED6B /* ActiveListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveListView.swift; sourceTree = "<group>"; };
+		AA16239C28FF995C001DED6B /* MessageCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCardView.swift; sourceTree = "<group>"; };
+		AA3EAA4F2914B17B00E3B820 /* RowItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowItemView.swift; sourceTree = "<group>"; };
+		AA3EAA522914B4C200E3B820 /* ExtentsionUIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtentsionUIColor.swift; sourceTree = "<group>"; };
 		AA78790928F928DB002F2C24 /* bell-memo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bell-memo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA78790C28F928DB002F2C24 /* bell_memoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bell_memoApp.swift; sourceTree = "<group>"; };
 		AA78790E28F928DB002F2C24 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -77,20 +83,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AA16239028FD22C2001DED6B /* Home */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Home;
-			sourceTree = "<group>";
-		};
-		AA16239128FD22DA001DED6B /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
 		AA16239228FD22F2001DED6B /* Doc */ = {
 			isa = PBXGroup;
 			children = (
@@ -105,8 +97,18 @@
 			children = (
 				AA16239828FE8936001DED6B /* SearchManagerView.swift */,
 				AA16239A28FEA927001DED6B /* ActiveListView.swift */,
+				AA16239C28FF995C001DED6B /* MessageCardView.swift */,
+				AA3EAA4F2914B17B00E3B820 /* RowItemView.swift */,
 			);
 			path = Component;
+			sourceTree = "<group>";
+		};
+		AA3EAA512914B44D00E3B820 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				AA3EAA522914B4C200E3B820 /* ExtentsionUIColor.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 		AA78790028F928DB002F2C24 = {
@@ -132,10 +134,9 @@
 		AA78790B28F928DB002F2C24 /* bell-memo */ = {
 			isa = PBXGroup;
 			children = (
+				AA3EAA512914B44D00E3B820 /* Extension */,
 				AA16239528FE87A3001DED6B /* Component */,
 				AA16239228FD22F2001DED6B /* Doc */,
-				AA16239128FD22DA001DED6B /* Model */,
-				AA16239028FD22C2001DED6B /* Home */,
 				AA78790C28F928DB002F2C24 /* bell_memoApp.swift */,
 				AA78790E28F928DB002F2C24 /* ContentView.swift */,
 				AA78791028F928DD002F2C24 /* Assets.xcassets */,
@@ -302,6 +303,9 @@
 				AA16239928FE8936001DED6B /* SearchManagerView.swift in Sources */,
 				AA78790F28F928DB002F2C24 /* ContentView.swift in Sources */,
 				AA16239B28FEA927001DED6B /* ActiveListView.swift in Sources */,
+				AA16239D28FF995C001DED6B /* MessageCardView.swift in Sources */,
+				AA3EAA532914B4C200E3B820 /* ExtentsionUIColor.swift in Sources */,
+				AA3EAA502914B17B00E3B820 /* RowItemView.swift in Sources */,
 				AA78790D28F928DB002F2C24 /* bell_memoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -21,8 +21,8 @@ struct SearchManagerView: View {
                 .font(.system(size: 14))
                 .frame(height: 40)
         }
-    
         .foregroundColor(Color.green)
+        .frame(width: 400, height: 40, alignment: .top)
         .background(
             RoundedRectangle(cornerRadius: 25)
                 .fill(Color.white)
@@ -30,4 +30,11 @@ struct SearchManagerView: View {
         )
     }
     
+}
+
+
+struct SearchManagerView_Previews: PreviewProvider {
+    static var previews: some View {
+        SearchManagerView()
+    }
 }
