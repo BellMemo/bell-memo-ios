@@ -17,7 +17,7 @@ struct ContentView: View {
             
             VStack {
                 SearchManagerView()
-                    .padding(.top, 60)
+                    .padding(.top, 40)
                 
                 ScrollView {
                     
@@ -31,10 +31,11 @@ struct ContentView: View {
                 
             }
             .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity)
-            .background(Color(hex: "#A5A6F6"))
+            // ffe6f1
+            .background(Color(hex: "#E4F1FE"))
             
             Button {
-                
+                showAddNewCard.toggle()
             } label: {
                 Image(systemName: "highlighter")
                     .resizable()
@@ -48,7 +49,7 @@ struct ContentView: View {
             .padding()
             .fullScreenCover(isPresented: $showAddNewCard) {
                 // self.showAddNewCard = true
-                 Text("add new card")
+                AddNewItemView()
             }
             
         }

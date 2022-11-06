@@ -9,9 +9,9 @@
 /* Begin PBXBuildFile section */
 		AA16239928FE8936001DED6B /* SearchManagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA16239828FE8936001DED6B /* SearchManagerView.swift */; };
 		AA16239B28FEA927001DED6B /* ActiveListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA16239A28FEA927001DED6B /* ActiveListView.swift */; };
-		AA16239D28FF995C001DED6B /* MessageCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA16239C28FF995C001DED6B /* MessageCardView.swift */; };
 		AA3EAA502914B17B00E3B820 /* RowItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3EAA4F2914B17B00E3B820 /* RowItemView.swift */; };
 		AA3EAA532914B4C200E3B820 /* ExtentsionUIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3EAA522914B4C200E3B820 /* ExtentsionUIColor.swift */; };
+		AA3EAA552917905300E3B820 /* AddNewItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3EAA542917905300E3B820 /* AddNewItemView.swift */; };
 		AA78790D28F928DB002F2C24 /* bell_memoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA78790C28F928DB002F2C24 /* bell_memoApp.swift */; };
 		AA78790F28F928DB002F2C24 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA78790E28F928DB002F2C24 /* ContentView.swift */; };
 		AA78791128F928DD002F2C24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA78791028F928DD002F2C24 /* Assets.xcassets */; };
@@ -43,9 +43,9 @@
 		AA16239428FD5922001DED6B /* Scene.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Scene.md; sourceTree = "<group>"; };
 		AA16239828FE8936001DED6B /* SearchManagerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchManagerView.swift; sourceTree = "<group>"; };
 		AA16239A28FEA927001DED6B /* ActiveListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveListView.swift; sourceTree = "<group>"; };
-		AA16239C28FF995C001DED6B /* MessageCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCardView.swift; sourceTree = "<group>"; };
 		AA3EAA4F2914B17B00E3B820 /* RowItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowItemView.swift; sourceTree = "<group>"; };
 		AA3EAA522914B4C200E3B820 /* ExtentsionUIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtentsionUIColor.swift; sourceTree = "<group>"; };
+		AA3EAA542917905300E3B820 /* AddNewItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewItemView.swift; sourceTree = "<group>"; };
 		AA78790928F928DB002F2C24 /* BellMomo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BellMomo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA78790C28F928DB002F2C24 /* bell_memoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bell_memoApp.swift; sourceTree = "<group>"; };
 		AA78790E28F928DB002F2C24 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -97,8 +97,8 @@
 			children = (
 				AA16239828FE8936001DED6B /* SearchManagerView.swift */,
 				AA16239A28FEA927001DED6B /* ActiveListView.swift */,
-				AA16239C28FF995C001DED6B /* MessageCardView.swift */,
 				AA3EAA4F2914B17B00E3B820 /* RowItemView.swift */,
+				AA3EAA542917905300E3B820 /* AddNewItemView.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -173,9 +173,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AA78790828F928DB002F2C24 /* BellMemo */ = {
+		AA78790828F928DB002F2C24 /* BellMomo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AA78792D28F928DD002F2C24 /* Build configuration list for PBXNativeTarget "BellMemo" */;
+			buildConfigurationList = AA78792D28F928DD002F2C24 /* Build configuration list for PBXNativeTarget "BellMomo" */;
 			buildPhases = (
 				AA78790528F928DB002F2C24 /* Sources */,
 				AA78790628F928DB002F2C24 /* Frameworks */,
@@ -185,7 +185,7 @@
 			);
 			dependencies = (
 			);
-			name = BellMemo;
+			name = BellMomo;
 			productName = "bell-memo";
 			productReference = AA78790928F928DB002F2C24 /* BellMomo.app */;
 			productType = "com.apple.product-type.application";
@@ -262,7 +262,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AA78790828F928DB002F2C24 /* BellMemo */,
+				AA78790828F928DB002F2C24 /* BellMomo */,
 				AA78791828F928DD002F2C24 /* BellMomoTests */,
 				AA78792228F928DD002F2C24 /* BellMomoUITests */,
 			);
@@ -303,7 +303,7 @@
 				AA16239928FE8936001DED6B /* SearchManagerView.swift in Sources */,
 				AA78790F28F928DB002F2C24 /* ContentView.swift in Sources */,
 				AA16239B28FEA927001DED6B /* ActiveListView.swift in Sources */,
-				AA16239D28FF995C001DED6B /* MessageCardView.swift in Sources */,
+				AA3EAA552917905300E3B820 /* AddNewItemView.swift in Sources */,
 				AA3EAA532914B4C200E3B820 /* ExtentsionUIColor.swift in Sources */,
 				AA3EAA502914B17B00E3B820 /* RowItemView.swift in Sources */,
 				AA78790D28F928DB002F2C24 /* bell_memoApp.swift in Sources */,
@@ -332,12 +332,12 @@
 /* Begin PBXTargetDependency section */
 		AA78791B28F928DD002F2C24 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AA78790828F928DB002F2C24 /* BellMemo */;
+			target = AA78790828F928DB002F2C24 /* BellMomo */;
 			targetProxy = AA78791A28F928DD002F2C24 /* PBXContainerItemProxy */;
 		};
 		AA78792528F928DD002F2C24 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AA78790828F928DB002F2C24 /* BellMemo */;
+			target = AA78790828F928DB002F2C24 /* BellMomo */;
 			targetProxy = AA78792428F928DD002F2C24 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -607,7 +607,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AA78792D28F928DD002F2C24 /* Build configuration list for PBXNativeTarget "BellMemo" */ = {
+		AA78792D28F928DD002F2C24 /* Build configuration list for PBXNativeTarget "BellMomo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AA78792E28F928DD002F2C24 /* Debug */,

@@ -16,7 +16,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AA78790828F928DB002F2C24"
                BuildableName = "BellMomo.app"
-               BlueprintName = "BellMemo"
+               BlueprintName = "BellMomo"
                ReferencedContainer = "container:BellMomo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -74,7 +74,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AA78790828F928DB002F2C24"
             BuildableName = "BellMomo.app"
-            BlueprintName = "BellMemo"
+            BlueprintName = "BellMomo"
             ReferencedContainer = "container:BellMomo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -91,7 +91,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AA78790828F928DB002F2C24"
             BuildableName = "BellMomo.app"
-            BlueprintName = "BellMemo"
+            BlueprintName = "BellMomo"
             ReferencedContainer = "container:BellMomo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
